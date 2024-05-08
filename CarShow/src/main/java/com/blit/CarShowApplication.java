@@ -41,6 +41,7 @@ public class CarShowApplication implements CommandLineRunner {
 		Owner owner2 = new Owner("Jack", "Biden");
 		ownerRepository.saveAll(Arrays.asList(owner1, owner2));
 		List<Car> cars = Arrays.asList(new Car("JenkinsCar", "Mustang", "Red", "ADF_1121", 2021, 49000, owner1),
+
 				new Car("Nissan", "Leaf", "Gray", "EBF_1221", 2020, 32500, owner2),
 				new Car("Toyota", "Camry", "Silver", "CDF_3123", 2021, 32000, owner1),
 				new Car("Toyota", "Corolla", "White", "DDF_3421", 2023, 40000, owner2));
